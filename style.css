@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+header {
+  background: linear-gradient(90deg, #2c3e50, #4ca1af);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  background: #222;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.jerseys {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.jersey {
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.green { background: green; }
+.blue { background: blue; }
+.purple { background: purple; }
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4ca1af;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
